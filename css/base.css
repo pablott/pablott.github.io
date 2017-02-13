@@ -1,0 +1,15 @@
+body {
+    font-size: 10pt;
+    background-color: rgba(100,100,200,.5);
+}
+h1 {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#footer {
+    text-align: right;
+    padding: 5px;
+    position: fixed;
+    bottom:0px; right: 0px;
+}

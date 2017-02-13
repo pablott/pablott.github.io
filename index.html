@@ -3,28 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
-
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
     <script src="js/vue.js"></script>
 </head>
 <body>
+    <h1 id="title">{{ message }}</h1>
+    <p id="time" v-bind:title="message">Last load time: {{message}} </p>
+    <a id="footer" href="js/vue.js">Powered by Vuejs</a>
 
-    <p id="app">{{ message }}</p>
-    <a href="js/vue.js">folder</a>
 
-<div id="app-2">
-  <span v-bind:title="message">
-    Hover your mouse over me for a few seconds to see my dynamically bound title!
-  </span>
-</div>
     <script>
-        var app = new Vue({
-          el: '#app',
+        var title = new Vue({
+          el: '#title',
           data: {
-            message: 'Hello Vue!'
+            message: 'Hello Portfolio!'
           }
         });
-        var app2 = new Vue({
-          el: '#app-2',
+        var time = new Vue({
+          el: '#time',
           data: {
             message: 'You loaded this page on ' + new Date()
           }
