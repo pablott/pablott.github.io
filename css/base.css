@@ -7,7 +7,7 @@ body {
 
 #header {
     font-size: 40px; font-weight:bold; letter-spacing: -1px; line-height: 60px;
-    color: rgba(255, 255, 255, 0.62); background-color: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.62); background-color: rgba(38, 31, 40, 0.3);
     height: 60px;
     padding: 12px 0 12px 226px;
     position: absolute;
@@ -25,7 +25,7 @@ body {
 
 #menu {
     font:16px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(38, 31, 40, 0.3);
     padding: 132px 12px 0px 12px;
     position: absolute;
     width:160px;
@@ -35,7 +35,12 @@ body {
 #menu li{
     color: deepskyblue;
     font-weight: bold;
+    text-align: center;
     padding: 0 0 8px 0;
+}
+
+#menu li:hover{
+    background-color: rgba(38, 31, 40, 0.3);
 }
 
 #cv {
@@ -55,8 +60,7 @@ body {
 
 #cv h2 {
     color: orangered;
-    font-style: italic;
-    font-weight:bold;
+    font-size: 16px; font-style: italic; font-weight:bold;
     margin: 24px 0 4px 0;
 }
 
