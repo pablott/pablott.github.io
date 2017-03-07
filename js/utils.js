@@ -1,7 +1,7 @@
 var title = new Vue({
   el: '#title',
   data: {
-    message: 'Hello Portfolio!'
+    message: 'Pablo Trabajos'
   }
 });
 var time = new Vue({
