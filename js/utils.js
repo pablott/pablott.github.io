@@ -1,5 +1,5 @@
-var title = new Vue({
-  el: '#title',
+var header = new Vue({
+  el: '#header',
   data: {
     message: 'Pablo Trabajos'
   }
