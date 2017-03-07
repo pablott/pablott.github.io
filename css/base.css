@@ -1,5 +1,5 @@
 body {
-    color: #ffffff;
+    color: #d2d2d2;
     background-color: rgb(61, 63, 71);
     font-family: 'Open Sans', sans-serif;
     font-size: 11pt; line-height: 120%;
@@ -67,6 +67,10 @@ body {
 #cv p {
     font-style: italic;
     margin: 4px 0 4px 12px;
+}
+#cv p b {
+    color: white;
+    font-weight: bold;
 }
 
 h1 {
