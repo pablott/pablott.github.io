@@ -51,34 +51,34 @@ a {
     background-color: rgba(38, 31, 40, 0.3);
 }
 
-#cv {
+#container {
     overflow-y: scroll;
     padding: 12px 0 48px 48px;
     position: absolute;
     top: 120px; bottom: 0px; left: 214px;
 }
 
-#cv h1, #cv h2 {
+#container h1, #container h2 {
     font-family: 'Merriweather', serif;
 }
 
-#cv h1 {
+#container h1 {
     color: greenyellow;
     margin-top:32px;
 }
 
-#cv h2 {
+#container h2 {
     color: orangered;
     font-size: 16px; font-style: italic; font-weight:bold;
     margin: 12px 0 4px 0;
 }
 
-#cv p, #cv ul {
+#container p, #container ul {
     max-width: 40%;
     font-size:14px; font-style: italic;
     margin: 4px 0 4px 12px;
 }
-#cv b {
+#container b {
     color: white;
     font-weight: bold;
 }
