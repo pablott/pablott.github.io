@@ -78,8 +78,13 @@ a {
     font-size:14px; font-style: italic;
     margin: 4px 0 4px 12px;
 }
+
+#container li {
+    list-style-type: square;
+    margin-left: 12px;
+}
+
 #container b {
     color: white;
     font-weight: bold;
 }
-
