@@ -1,90 +1,133 @@
 body {
-    color: #e2e2e2;
-    background-color: rgb(61, 63, 71);
-    font-family: 'Open Sans', sans-serif;
-    line-height: 120%;
+  color: gray;
+  background-color: rgb(250, 250, 250);
+  font-family: 'Open Sans', sans-serif;
+  line-height: 120%;
 }
 
 h1 {
-    font-size: 16pt;
-    font-weight: bold;
+  font-size: 16pt;
+  font-weight: bold;
 }
 
 a {
-    color: deepskyblue;
+  color: deepskyblue;
 }
 
 #header {
-    font-size: 40px; font-weight:bold; letter-spacing: -1px; line-height: 60px;
-    color: rgba(255, 255, 255, 0.62); background-color: rgba(38, 31, 40, 0.3);
-    height: 60px;
-    padding: 12px 0 12px 262px;
-    position: absolute;
-    top: 30px; left:0; right: 0;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 60px;
+  color: rgb(240, 240, 240);
+  background-color: rgba(38, 31, 40, 0.3);
+  height: 130px;
+  padding: 12px 0 12px 214px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
 
 #footer {
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,.3) 100%);
-    font-size: 12px; font-style: italic; text-align: right;
-    width: 100%;
-    padding: 4px 24px;
-    position: absolute; z-index:-1;
-    bottom:0px; right: 0px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .6) 100%);
+  font-size: 12px;
+  font-style: italic;
+  text-align: right;
+  width: 100%;
+  padding: 4px 24px;
+  position: absolute;
+  z-index: -1;
+  bottom: 0px;
+  right: 0px;
 }
 
+/*
+  MENU
+*/
 #menu {
-    background-color: rgba(38, 31, 40, 0.3);
-    padding: 164px 12px 0px 12px;
-    position: absolute;
-    width:160px;
-    top: 0; bottom: 0; left: 30px;
+  position: absolute;
+  top: 120px;
+  left: 0px;
+  right: 0px;
+  padding: 0px 0 0px 200px;
+  z-index: 100;
 }
 
-#menu li{
-    color: deepskyblue;
-    font-size:16px; line-height:16px; font-weight: bold;
-    text-align: center;
-    padding: 8px 0;
+#menu li {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  text-align: left;
+  padding: 8px 12px;
+  width: 200px;
+  display: inline;
 }
 
-#menu li:hover{
-    background-color: rgba(38, 31, 40, 0.3);
+
+/*
+#menu li#exp {
+  border-left: 4px solid greenyellow;
 }
 
+#menu li#studies {
+  border-left: 4px solid orangered;
+}
+
+#menu li#skills {
+  border-left: 4px solid deepskyblue;
+}
+*/
+#menu li:hover {
+  background-color: rgba(58, 51, 60, 0.6);
+}
+
+
+
+
+/*
+  CONTAINER
+*/
 #container {
-    overflow-y: scroll;
-    padding: 12px 0 48px 48px;
-    position: absolute;
-    top: 120px; bottom: 0px; left: 214px;
+  overflow-y: scroll;
+  padding: 200px 0 100px 0;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 212px;
 }
 
 #container h1, #container h2 {
-    font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', serif;
 }
 
 #container h1 {
-    color: greenyellow;
-    margin-top:32px;
+  color: greenyellow;
+  margin-top: 32px;
 }
 
 #container h2 {
-    color: orangered;
-    font-size: 16px; font-style: italic; font-weight:bold;
-    margin: 12px 0 4px 0;
+  color: orangered;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 12px 0 4px 0;
 }
 
 #container p, #container ul {
-    max-width: 40%;
-    font-size:14px; font-style: italic;
-    margin: 4px 0 4px 12px;
+  max-width: 40%;
+  font-size: 14px;
+  font-style: italic;
+  margin: 4px 0 4px 12px;
 }
 
 #container li {
-    list-style-type: square;
-    margin-left: 12px;
+  list-style-type: square;
+  margin-left: 12px;
 }
 
 #container b {
-    color: white;
-    font-weight: bold;
+  color: darkergray;
+  font-weight: bold;
 }

@@ -15,17 +15,31 @@
     <div id="header">
        {{ message }}
     </div>
+    <div id="skills">
+       {{ message }}
+       <li v-for="item in userData">
+         {{ item }}
+       </li>
 
+    </div>
     <div id="menu">
         <ul>
-            <li>CV</li>
-            <!--<li>Contact</li>
-            <li>Demos</li>-->
+            <li id="exp">Experience</li>
+            <li id="skills">Skills</li>
+            <li id="studies">Education</li>
         </ul>
     </div>
 
     <div id="container">
-        <div id="cv">
+      <h1>Skills</h1>
+<!--
+      <div id="skills">
+          {{ message }}
+           Id : {{ userData.programming.API.level }}
+      </div>
+-->
+
+        <div id="career">
             <h1>Job Experience</h1>
                 <h2>2018-present</h2>
                   <p>UX UI / Frontend developer / Automation programmer in <b>3XM solution</b>.</p>
@@ -46,6 +60,11 @@
                     <p>Working as a prepress technician, designer and artworker turning customers needs and artworks into print-ready products at <b>Estilo Estugraf printers</b>.</p>
                 <h2>2009</h2>
                     <p>Internship in <b>Editorial CCS</b> publishing house as an artworker and graphic designer.</p>
+              </div>
+
+
+
+          <div id="education">
             <h1>Education</h1>
                 <h2>2017-2018</h2>
                   <p>UI, UX and backend - PHP, JavaScript and HTML course in <b>WebElevate 5.1 (DIT)</b>.</p>
@@ -60,26 +79,23 @@
                     <p>Electronic products development (Certificate of Professional Training, High Level - <b>NQF level 6</b>).</p>
                 <h2>2005</h2>
                     <p>High School graduate.</p>
-            <h1>Skills</h1>
-                <h2>Printing & edition</h2>
-                    <ul class="">
-                        <li>Offset</li>
-                        <li>Page layout</li>
-                        <li>Colorimetry</li>
-                    </ul>
-        </div>
+          </div>
+
+
+
+
 
         <div id="contact">
             <!--<h1>Personal info</h1>
                 <h2>Name</h2>
-                <p>Pablo Trabajos Tamayo</p>
+                <p>Pablo Trabajos</p>
                 <h2>Phone</h2>
                 <p>+353 83 841 5282</p>
             -->
             <h1>Webs</h1>
                 <p>Job contact <a href="https://www.linkedin.com/in/pablott/?locale=en_US">LinkedIn</a></p>
                 <p>Code <a href="https://github.com/pablott/">GitHub</a></p>
-                <p>Portfolio <a href="http://www.scribd.com/pablotrabajos">Scribd</a></p>
+                <!--<p>Portfolio <a href="http://www.scribd.com/pablotrabajos">Scribd</a></p>-->
         </div>
     </div>
 
