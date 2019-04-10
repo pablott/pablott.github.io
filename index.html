@@ -1,109 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <title>Pablo Trabajos</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <script src="js/vue.js"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i|Open+Sans:400,400i,700,700i');
+      @import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i|Open+Sans:400,400i,700,700i');
     </style>
-</head>
-<body>
+  </head>
+  <body>
 
     <div id="header">
-       {{ message }}
+      {{ message }}
     </div>
-    <div id="skills">
-       {{ message }}
-       <li v-for="item in userData">
-         {{ item }}
-       </li>
-
-    </div>
+    <!-- <div id="skills"> {{ message }} <li v-for="item in userData"> {{ item }} </li> </div> -->
     <div id="menu">
-        <ul>
-            <li id="exp">Experience</li>
-            <li id="skills">Skills</li>
-            <li id="studies">Education</li>
-        </ul>
+      <ul>
+        <li id="exp"><a href="#sec1">Experience</a></li>
+        <li id="studies"><a href="#sec2">Education</a></li>
+        <li id="skills"><a href="#sec3">Skills</a></li>
+      </ul>
     </div>
 
     <div id="container">
-      <h1>Skills</h1>
-<!--
-      <div id="skills">
-          {{ message }}
-           Id : {{ userData.programming.API.level }}
+      <!-- not working: <div id="skills"> {{ message }} Id : {{ userData.programming.API.level }} </div> -->
+
+      <div id="career">
+        <br id="sec1"><br><br><br><br><br><br><br><br>
+        <h1>Experience</h1>
+        <h2>2018-present</h2>
+        <p>UX UI / Frontend developer / Automation programmer in
+          <b>3XM solution</b>.</p>
+        <p>Design and implementation of online company projects:</p>
+        <ul>
+          <li>Design form scratch of the app.</li>
+          <li>Implementation in JS+JS libraries.</li>
+        </ul>
+        <h2>2017-present</h2>
+        <p>Artwork specialist / Automation programmer in
+          <b>3XM solution</b>.</p>
+        <h2>2018-present</h2>
+        <p>Preparing artworks for hot foiling mounts in
+          <b>Photovalue Ltd</b>.</p>
+        <h2>2015-2016</h2>
+        <p>Artworker for
+          <b>Perigord Life Science Artwork Solutions</b>. Preparation of pharma printed media (leaflets, booklets, cartons, vials and blisters) for customers
+          <b>Novartis</b>,
+          <b>Alexion</b>,
+          <b>Biogen</b>
+          and
+          <b>Pfizer</b>. Job included artworking, quality inspection and keyline creation/inspection.</p>
+        <h2 id="sec2">2011-2014</h2>
+        <p>Working as a prepress technician, designer and artworker turning customers needs and artworks into print-ready products at
+          <b>Grupo Monterreina</b>
+          printers.</p>
+        <h2>2010</h2>
+        <p>Working as a prepress technician, designer and artworker turning customers needs and artworks into print-ready products at
+          <b>Estilo Estugraf printers</b>.</p>
+        <h2>2009</h2>
+        <p>Internship in
+          <b>Editorial CCS</b>
+          publishing house as an artworker and graphic designer.</p>
       </div>
--->
 
-        <div id="career">
-            <h1>Job Experience</h1>
-                <h2>2018-present</h2>
-                  <p>UX UI / Frontend developer / Automation programmer in <b>3XM solution</b>.</p>
-                  <p>Design and implementation of online company projects:</p>
-                  <ul>
-                    <li>Design form scratch of the app.</li>
-                    <li>Implementation in JS+JS libraries.</li>
-                  </ul>
-                <h2>2017-present</h2>
-                  <p>Artwork specialist / Automation programmer in <b>3XM solution</b>.</p>
-                <h2>2018-present</h2>
-                  <p>Preparing artworks for hot foiling mounts in <b>Photovalue Ltd</b>.</p>
-                <h2>2015-2016</h2>
-                    <p>Artworker for <b>Perigord Life Science Artwork Solutions</b>. Preparation of pharma printed media (leaflets, booklets, cartons, vials and blisters) for customers <b>Novartis</b>, <b>Alexion</b>, <b>Biogen</b> and <b>Pfizer</b>. Job included artworking, quality inspection and keyline creation/inspection.</p>
-                <h2>2011-2014</h2>
-                    <p>Working as a prepress technician, designer and artworker turning customers needs and artworks into print-ready products at <b>Grupo Monterreina</b> printers.</p>
-                <h2>2010</h2>
-                    <p>Working as a prepress technician, designer and artworker turning customers needs and artworks into print-ready products at <b>Estilo Estugraf printers</b>.</p>
-                <h2>2009</h2>
-                    <p>Internship in <b>Editorial CCS</b> publishing house as an artworker and graphic designer.</p>
-              </div>
+      <div id="education">
+        <h1>Education</h1>
+        <h2>2017-2018</h2>
+        <p>UI, UX and backend - PHP, JavaScript and HTML course in
+          <b>WebElevate 5.1 (DIT)</b>.</p>
+        <h2>2011</h2>
+        <p>Brand design and implementation course.</p>
+        <p>Drawing techniques course.</p>
+        <h2>2010 & 2011</h2>
+        <p>3 courses on HTML/CSS using Dreamweaver and Flash, amounting more than 300 hours.</p>
+        <h2 id="sec3">2007-2009</h2>
+        <p>Senior technician in graphic design and publishing (Certificate of Professional Training, High Level -
+          <b>NQF level 6</b>).</p>
+        <h2>2007-2009</h2>
+        <p>Electronic products development (Certificate of Professional Training, High Level -
+          <b>NQF level 6</b>).</p>
+        <h2>2005</h2>
+        <p>High School graduate.</p>
+      </div>
 
+      <div id="skills">
+        <h1>Skills</h1>
+        <b>UX, web & coding</b><br>
+        UX research: interviews, use cases & scenarios, user journey, UI flow, flowcharts (UML), priority guides, wireframing, mockups, prototyping, etc.<br>
+        Experience with frontend and backend.<br>
+        PHP programming language.<br>
+        Python programming language.<br>
+        Django web framework.<br>
+        Good knowledge of HTML4/5 and CSS2/3.<br>
+        JavaScript and frameworks VueJS and Angular.<br>
+        JavaScript libraries like D3, Fabric and jQuery.<br>
+        NPM.<br>
+        RabbitMQ/Celery.<br>
+        PhoneGap/Cordova.<br>
+        APIs (Google, London Gov., others – familiar with REST).<br>
+        JSON & XML.<br>
+        JetBrains software (WebStorm and PyCharm).<br>
+        Scrum/Agile.<br>
+        SQL (MySQL).<br>
+        Version control systems (Git) and unit testing.<br>
+        Linux, including working with terminals using CLI-based software of all kinds.<br>
+        Dreamweaver and Flash.<br>
+        LaTex typesetting language.<br><br>
+        <b>Printing & edition</b><br>
+        Very experienced in print related issues. As a prepress technician, I’ve been taking care of the tasks needed to bring a printed product from start to end: inks, image conversion, binding and finish like varnish or die-cutting.<br>
+        Great knowledge of InDesign and QuarkXPress.<br>
+        Great knowledge of Photoshop, Illustrator and Freehand.<br>
+        Great knowledge of AcrobatPro and Enfocus PitStop.<br>
+        Great knowledge of colour management in CMYK and RGB, experience using colour and ink measurement devices like densitometers and spectrophotometers.<br>
+        Familiarity with imposition software like Agfa Apogee or Preps.<br>
+        Familiarity with proofreading.<br><br>
+        <b>Other</b><br>
+        Fluent in English (Spanish is my mother tongue).<br>
+        Car driving license.<br>
+        High School graduate (secondary education, scientific branch).<br>
+        Working knowledge of Microsoft Office, After Effects, Premiere and CorelDraw.<br>
+        Able to work in Windows, Mac and Linux systems.<br>
+        Good drawing and photography skills.<br>
+      </div>
 
-
-          <div id="education">
-            <h1>Education</h1>
-                <h2>2017-2018</h2>
-                  <p>UI, UX and backend - PHP, JavaScript and HTML course in <b>WebElevate 5.1 (DIT)</b>.</p>
-                <h2>2011</h2>
-                    <p>Brand design and implementation course.</p>
-                    <p>Drawing techniques course.</p>
-                <h2>2010 & 2011</h2>
-                    <p>3 courses on HTML/CSS using Dreamweaver and Flash, amounting more than 300 hours.</p>
-                <h2>2007-2009</h2>
-                    <p>Senior technician in graphic design and publishing (Certificate of Professional Training, High Level - <b>NQF level 6</b>).</p>
-                <h2>2007-2009</h2>
-                    <p>Electronic products development (Certificate of Professional Training, High Level - <b>NQF level 6</b>).</p>
-                <h2>2005</h2>
-                    <p>High School graduate.</p>
-          </div>
-
-
-
-
-
-        <div id="contact">
-            <!--<h1>Personal info</h1>
-                <h2>Name</h2>
-                <p>Pablo Trabajos</p>
-                <h2>Phone</h2>
-                <p>+353 83 841 5282</p>
-            -->
-            <h1>Webs</h1>
-                <p>Job contact <a href="https://www.linkedin.com/in/pablott/?locale=en_US">LinkedIn</a></p>
-                <p>Code <a href="https://github.com/pablott/">GitHub</a></p>
-                <!--<p>Portfolio <a href="http://www.scribd.com/pablotrabajos">Scribd</a></p>-->
-        </div>
+      <div id="contact">
+        <!--<h1>Personal info</h1> <h2>Name</h2> <p>Pablo Trabajos</p> <h2>Phone</h2> <p>+353 83 841 5282</p> -->
+        <h1>Webs</h1>
+        <p>Job contact
+          <a href="https://www.linkedin.com/in/pablott/?locale=en_US">LinkedIn</a>
+        </p>
+        <p>Code
+          <a href="https://github.com/pablott/">GitHub</a>
+        </p>
+        <!--<p>Portfolio <a href="http://www.scribd.com/pablotrabajos">Scribd</a></p>-->
+        <br>
+        <br>
+      </div>
     </div>
 
     <div id="footer">
-        <p id="time" v-bind:title="message">Last load time: {{message}} //
-        Powered by <a href="https://vuejs.org/">Vuejs</a> & Google Fonts </p>
+      <p id="time" v-bind:title="message">Last load time:
+        {{message}}
+        // Powered by
+        <a href="https://vuejs.org/">Vuejs</a>
+        & Google Fonts
+      </p>
     </div>
 
     <script src="js/utils.js"></script>
-</body>
+  </body>
 </html>
