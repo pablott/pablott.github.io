@@ -1,0 +1,202 @@
+{
+  "programming": {
+    "UX research": {
+      "desc": "Interviews, use cases & scenarios, user journey, UI flow, flowcharts (UML), priority guides, wireframing, mockups, prototyping, etc.",
+      "level": 4
+    },
+    "Experience with frontend and backend": {
+      "desc": "",
+      "level": 4
+    },
+    "PHP": {
+      "desc": "Programming language",
+      "level": 4
+    },
+    "Python": {
+      "desc": "Programming language",
+      "level": 4
+    },
+    "Django": {
+      "desc": "Web framework",
+      "level": 3
+    },
+    "HTML": {
+      "desc": "HTML including latest version 5",
+      "level": 5
+    },
+    "CSS": {
+      "desc": "CSS including latest version 3",
+      "level": 5
+    },
+    "JavaScript": {
+      "desc": "",
+      "level": 4
+    },
+    "VueJS": {
+      "desc": "JS framework",
+      "level": 3
+    },
+    "Angular": {
+      "desc": "JS framework",
+      "level": 3
+    },
+    "Fabric": {
+      "desc": "JS library for canvas manipulation",
+      "level": 3
+    },
+    "D3": {
+      "desc": "JS library for data visualization",
+      "level": 3
+    },
+    "jQuery": {
+      "desc": "JS library",
+      "level": 3
+    },
+    "WebAssembly": {
+      "desc": "Assembly for the web",
+      "level": 1
+    },
+    "NPM": {
+      "desc": "",
+      "level": 3
+    },
+    "PhoneGap/Cordova": {
+      "desc": "",
+      "level": 3
+    },
+    "API": {
+      "desc": "Google, London Gov., others – familiar with REST",
+      "level": 4
+    },
+    "JSON": {
+      "desc": "",
+      "level": 4
+    },
+    "XML": {
+      "desc": "",
+      "level": 3
+    },
+    "JetBrains software": {
+      "desc": "PyCharm and WebStorm",
+      "level": 4
+    },
+    "Scrum/Agile": {
+      "desc": "",
+      "level": 4
+    },
+    "MySQL": {
+      "desc": "MySQL typically, but I know some about SQL queries too",
+      "level": 3
+    },
+    "Version control systems": {
+      "desc": "Git, SVN & CVS",
+      "level": 4
+    },
+    "Unit testing": {
+      "desc": "JUnit",
+      "level": 3
+    },
+    "Linux": {
+      "desc": "Including working with terminals using CLI-based software of all kinds",
+      "level": 5
+    },
+    "MacOS": {
+      "desc": "Including working with terminals using CLI-based software of all kinds",
+      "level": 5
+    },
+    "Windows": {
+      "desc": "",
+      "level": 5
+    },
+    "Dreamweaver and Flash": {
+      "desc": "No much of a point in using these...",
+      "level": 3
+    },
+    "LaTex": {
+      "desc": "Scientific typesetting language",
+      "level": 4
+    }
+  },
+
+
+
+  "printing": {
+    "InDesign": {
+      "desc": "",
+      "level": 5
+    },
+    "QuarkXPress": {
+      "desc": "",
+      "level": 4
+    },
+    "Photoshop": {
+      "desc": "",
+      "level": 5
+    },
+    "Illustrator": {
+      "desc": "",
+      "level": 5
+    },
+    "Freehand": {
+      "desc": "",
+      "level": 4
+    },
+    "CorelDraw": {
+      "desc": "",
+      "level": 4
+    },
+    "AcrobatPro": {
+      "desc": "",
+      "level": 5
+    },
+    "Enfocus PitStop": {
+      "desc": "",
+      "level": 4
+    },
+    "Colour management": {
+      "desc": "Great knowledge of colour management in CMYK and RGB, experience using colour and ink measurement devices like densitometers and spectrophotometers",
+      "level": 5
+    },
+    "Imposition": {
+      "desc": "Familiarity with imposition software like Agfa Apogee or Preps",
+      "level": 3
+    },
+    "Proofreading": {
+      "desc": "Books, magazines, brochures, packaging...",
+      "level": 5
+    }
+  },
+
+
+
+  "other": {
+    "English": {
+      "desc": "",
+      "level": 4
+    },
+    "Spanish": {
+      "desc": "Mother tongue",
+      "level": 5
+    },
+    "Car driving license": {
+      "desc": "EU license",
+      "level": 5
+    },
+    "Microsoft Office": {
+      "desc": "",
+      "level": 4
+    },
+    "After Effects": {
+      "desc": "",
+      "level": 3
+    },
+    "Premiere": {
+      "desc": "",
+      "level": 3
+    },
+    "Good drawing and photography skills": {
+      "desc": "",
+      "level": 4
+    }
+  }
+}
